@@ -6,18 +6,18 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    max-width: 100%; /* Puedes ajustar el ancho máximo según tus necesidades */
     margin: 0 auto; /* Centra el cuerpo horizontalmente */
     padding: 20px; /* Espacio alrededor del contenido */
-    text-align: center; /* Centra el texto dentro del cuerpo */
+    text-align: left; /* Centra el texto dentro del cuerpo */
     background-color: #ebe8e8;
 }
 
 header {
-    background-color: #333;
+    background-color: #3067fd;
     color: #fff;
     padding: 10px 0;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 main {
@@ -29,7 +29,7 @@ nav ul {
     padding: 2.5px;
     margin: 0;
     margin-right: 20px;
-    text-align: right; /* Alinea los enlaces hacia la derecha */
+    text-align: left; /* Alinea los enlaces hacia la derecha */
 }
 
 nav ul li {
@@ -50,11 +50,11 @@ nav ul li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #3067fd;
     min-width: 120px;
     z-index: 1; 
     top: 100%; /* Coloca el menú debajo del enlace principal */
-    left: -30px; /* Alinea el menú a la izquierda del enlace principal */
+    left: -20px; /* Alinea el menú a la izquierda del enlace principal */
     padding-top: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -166,38 +166,3 @@ footer {
 footer p {
     margin: 0;
 }
-
-@media screen and (min-width:485px) and (max-width: 650px){
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-    }
-} 
-
-@media screen and (min-width:100px) and (max-width: 485px){
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-    }
-    nav ul li {
-        display: block;
-        margin-left: 20px; /* Agrega margen izquierdo para separar los enlaces */
-        text-align: center;
-    }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #333;
-        min-width: 100%;
-        z-index: 1; 
-        top: 100%; /* Coloca el menú debajo del enlace principal */
-        left: 0px; /* Alinea el menú a la izquierda del enlace principal */
-        padding-top: 10px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-} 
