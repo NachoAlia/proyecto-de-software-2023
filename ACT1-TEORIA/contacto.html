@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#">Cursos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="ingles.html">Inglés</a></li>
+                        <li><a href="frances.html">Francés</a></li>
+                    </ul>
+                </li>
+                <li><a href="quien.html">¿Quienes Somos?</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contacto</h1>
+        <p>Utiliza el siguiente formulario para ponerte en contacto con nosotros:</p>
+        
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 MisCursos - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
